@@ -1,0 +1,31 @@
+<!--
+  Generated template for the BasciUiPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>通用控件演示</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <button ion-button block>Block Button</button>
+  <button ion-button color="light" round>Light Round</button>
+  <button ion-button (click)="showCheckbox()">showCheckbox</button>
+  <button ion-button (click)="toShowRadio()">toShowRadio</button>
+  <button ion-button (click)="toShowConfirm()">toShowConfirm</button>
+  <button ion-button (click)="toShowPrompt()">toShowPrompt</button>
+  <button ion-button (click)="toShowAlert()">toShowAlert</button>
+  <button ion-button (click)="toShowLoading()">toShowLoading</button>
+  <button ion-button (click)="toShowToast()">toShowToast</button>
+  <ion-item>
+    <ion-icon name="logo-twitter" item-start></ion-icon>
+    Followers
+    <ion-badge color="secondary" item-end>260k</ion-badge>
+  </ion-item>
+</ion-content>
